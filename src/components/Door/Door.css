@@ -1,0 +1,16 @@
+.doorContainer {
+	height: 15rem;
+	width: 15rem;
+}
+
+.door {
+	height: 100%;
+	width: 100%;
+	background-image: url('../../images/door.jpeg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.doorNumber {
+
+}
