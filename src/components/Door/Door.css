@@ -1,3 +1,29 @@
+h3 {
+	text-align: center;
+	color: #73121e
+}
+
+p {
+	color: #3c546c
+}
+
+li {
+	color: #3c546c
+}
+
+img {
+	max-height: 25rem;
+	max-width: 25rem;
+}
+
+.imageContainer {
+	text-align: center
+}
+
+.buttonContainer {
+	text-align: center;
+}
+
 .doorContainer {
 	height: 8rem;
 	width: 8rem;
@@ -19,4 +45,8 @@
 	text-align: center;
 	text-shadow: 5px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 	line-height: 8.5rem;
+}
+
+.mistleToe {
+	background-image: url('../../images/mistletoe.png')
 }

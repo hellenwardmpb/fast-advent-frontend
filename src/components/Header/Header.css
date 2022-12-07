@@ -7,10 +7,48 @@ h1 {
 	line-height: 26.4px; 
 	color: white;
 	src: local('')
-} 
+}
+
+p { 
+	font-family: "Mountains of Christmas"; 
+	font-size: 20px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 500; 
+	line-height: 25px; 
+}
 
 .headerContainer {
 	text-align: center;
 	padding: 2rem;
 }
-/* h3 { font-family: "Mountains of Christmas"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Mountains of Christmas"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Mountains of Christmas"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Mountains of Christmas"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; } */
+
+h3 { 
+	font-family: "Mountains of Christmas"; 
+	font-size: 35px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 15.4px; 
+}
+
+li {
+	font-family: "Mountains of Christmas"; 
+	font-size: 20px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 500; 
+	line-height: 25px; 
+}
+
+button {
+	background-color:#73121e;
+	color:#baecfa;
+	width: 13rem;
+	height: 2rem;
+	border-radius: 7%;
+	font-family: "Mountains of Christmas";
+	font-size: 20px;
+	font-weight: 700;
+}
+/*   blockquote { font-family: "Mountains of Christmas"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Mountains of Christmas"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; } */

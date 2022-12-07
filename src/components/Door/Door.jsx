@@ -4,6 +4,23 @@ import { useState } from "react";
 
 Modal.setAppElement("#root");
 
+const customStyles = {
+    content: {
+        top: "50%",
+        left: "50%",
+        right: "auto",
+        bottom: "auto",
+        marginRight: "-50%",
+        transform: "translate(-50%, -50%)",
+        width: "75%",
+        height: "80%",
+        border: "black solid 3px",
+        boxShadow: "5px 10px #888888",
+        "border-radius": "5%",
+        backgroundColor: "#E2DED0",
+    },
+};
+
 export const Door = (props) => {
     const [modalOpen, setModalOpen] = useState(false);
     const {
@@ -36,11 +53,19 @@ export const Door = (props) => {
                     <div className="doorNumber">{number}</div>
                 </div>
             </div>
-            <Modal isOpen={modalOpen} onRequestClose={closeDoorModal}>
-                <h2>{title}!</h2>
-                <a href={webLink} target="_blank" rel="noreferrer">
-                    <img src={url} alt={artist} />
-                </a>
+            <Modal
+                isOpen={modalOpen}
+                onRequestClose={closeDoorModal}
+                style={customStyles}
+            >
+                <div className="mistleToe" />
+                <h3>{title}</h3>
+                <div className="mistleToe" />
+                <div className="imageContainer">
+                    <a href={webLink} target="_blank" rel="noreferrer">
+                        <img src={url} alt={artist} />
+                    </a>
+                </div>
                 <ul>
                     <li>Artist: {artist}</li>
                     <li>Date: {creationDate}</li>
@@ -52,7 +77,9 @@ export const Door = (props) => {
                     </li>
                 </ul>
                 <p>{notes}</p>
-                <button onClick={closeDoorModal}>Close</button>
+                <div className="buttonContainer">
+                    <button onClick={closeDoorModal}>Close</button>
+                </div>
             </Modal>
         </>
     );
