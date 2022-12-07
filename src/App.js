@@ -42,8 +42,9 @@ function App() {
     return (
         <div className="App">
             <Header />
-            {/* {doors} */}
-            <Door props={doors[0]} />
+            <div className="outerContainer">
+                <div className="doorsContainer">{doors}</div>
+            </div>
         </div>
     );
 }
