@@ -36,8 +36,13 @@ export const Door = (props) => {
     console.log(props);
 
     const openDoorModal = () => {
-        console.log("hi!");
-        setModalOpen(true);
+        const current = new Date();
+        const date = current.getDate();
+        if ( number <= date ) {
+            console.log("hi!")
+            setModalOpen(true)
+        }
+        
     };
 
     const closeDoorModal = () => {
@@ -50,7 +55,7 @@ export const Door = (props) => {
         <>
             <div className="doorContainer" onClick={openDoorModal}>
                 <div className="door">
-                    <div className="doorNumber">{number}</div>
+                    <div className="doorNumber" data-door-number={number}>{number}</div>
                 </div>
             </div>
             <Modal
