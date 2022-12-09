@@ -67,7 +67,7 @@ export const Door = (props) => {
                 <h3>{title}</h3>
                 <div className="mistleToe" />
                 <div className="imageContainer">
-                    <a href={webLink} target="_blank" rel="noreferrer">
+                    <a href={url} target="_blank" rel="noreferrer">
                         <img src={url} alt={artist} />
                     </a>
                 </div>
