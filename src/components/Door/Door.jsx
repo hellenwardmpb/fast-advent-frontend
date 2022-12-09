@@ -16,7 +16,7 @@ const customStyles = {
         height: "80%",
         border: "black solid 3px",
         boxShadow: "5px 10px #888888",
-        "border-radius": "5%",
+        "borderRadius": "5%",
         backgroundColor: "#E2DED0",
     },
 };
