@@ -9,6 +9,7 @@ function App() {
     const [doors, setDoors] = useState([]);
 
     useEffect(() => {
+        document.title = "Advent Calendar"
         const getData = async () => {
             try {
                 const url = "/api/images";
